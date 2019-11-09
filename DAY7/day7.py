@@ -44,7 +44,7 @@ def filter_row(data_filter,content_row,colunm):
 # ************* Main *************
 def main():
     header_output = ['MaSP','SoLuong','DoanhSo','LoiNhuan']
-
+    result = list()
     with open('data.csv','r') as csvdata:
         csv_reader = csv.DictReader(csvdata)
 
