@@ -9,7 +9,7 @@ class Proson:
         self.name = name
         self.address = address
     def introduce(self):
-        print self.name , '@' , self.address
+        print( self.name , '@' , self.address)
 
     def __str__(self): # ham chuyen oject to string
         return self.name
@@ -17,7 +17,7 @@ class Proson:
 address = Address('123 Ba dinh', 'Ha Noi')
 pers1 = Proson('Nguyen van a',address)
 pers1.introduce()
-print pers1
+print (pers1)
 
 
 
@@ -25,6 +25,6 @@ print pers1
 
 #---------- function define ---------------
 def function(self):
-    print ''
+    print ('')
     return 0
 # -----------------------------------------
